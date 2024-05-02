@@ -5,17 +5,17 @@ const inputMoney = prompt(
 );
 
 if (inputMoney === "E5") {
-  document.getElementById("h1-el").innerText = "Your change is E2 E2 E1";
+  document.getElementById("h3-el").innerText = "Your change is E2 E2 E1";
 } else if (inputMoney === "E2") {
-  document.getElementById("h1-el").innerText = `Your change is E1 E1`;
+  document.getElementById("h3-el").innerText = `Your change is E1 E1`;
 } else if (inputMoney === "E1") {
-  document.getElementById("h1-el").innerText = "Your change is 50p 50p";
+  document.getElementById("h3-el").innerText = "Your change is 50p 50p";
 } else if (inputMoney === "50p") {
-  document.getElementById("h1-el").innerText = "Your change is 20p 20p 10p";
+  document.getElementById("h3-el").innerText = "Your change is 20p 20p 10p";
 } else if (inputMoney === "20p") {
-  document.getElementById("h1-el").innerText = "Your change is 10p 10p";
+  document.getElementById("h3-el").innerText = "Your change is 10p 10p";
 } else {
   document.getElementById(
-    "h1-el"
+    "h3-el"
   ).innerText = `Machin can not accept ${typeof inputMoney} ${inputMoney}`;
 }
